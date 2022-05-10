@@ -4,8 +4,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <img src="canteenlogo.png" alt="frontpage" width="80" height="80" style="border-radius: 50%>
   <h1>PICT Canteen</h1>
-  <img src="canteenlogo.png" alt="frontpage" width="80" height="80">
+  
   <br/>
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="frontpage.png" alt="frontpage" width="400" height="250">
