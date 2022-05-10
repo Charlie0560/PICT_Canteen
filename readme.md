@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="frontpage.png" alt="frontpage" width="80" height="80">
+    <img src="frontpage.png" alt="frontpage" width="400" height="250">
 <!--     <img src="frontpage2.png" alt="frontpage" width="80" height="80">
     <img src="cart.png" alt="cart" width="80" height="80">
     <img src="admin.png" alt="admin" width="80" height="80"> -->
