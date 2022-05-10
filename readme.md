@@ -22,6 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <h1>PICT Canteen</h1>
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="frontpage.png" alt="frontpage" width="400" height="250">
 <!--     <img src="frontpage2.png" alt="frontpage" width="80" height="80">
