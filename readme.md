@@ -105,8 +105,10 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- To run the project -->
 ## Run
-open two termnials ds in the current directory
+open two termnials ds in the current directory as given below
+<br/>
  <img src="frontpage.png" alt="frontpage" width="400" height="250">
+ <br/>
  here common directory is named as "api"
 
 1. To run client-side/frontend
