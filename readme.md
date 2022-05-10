@@ -84,17 +84,16 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/Charlie0560/PICT_Canteen.git
    ```
-3. Install NPM packages for server-side/backend
+2. Install NPM packages for server-side/backend
    ```sh
    npm i
    npm init
    ```
-4. Install NPM packages for client-side/frontend
+3. Install NPM packages for client-side/frontend
    ```sh
    cd frontend
    npm i
