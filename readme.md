@@ -4,7 +4,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="canteenlogo.png" alt="frontpage" width="80" height="80" style="border-radius: 50%>
+  <img src="canteenlogo.png" alt="frontpage" width="80" height="80">
+  <br/>
+                                                                           
   <h1>PICT Canteen</h1>
   
   <br/>
