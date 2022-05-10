@@ -1,0 +1,64 @@
+.forms{
+    height: 100vh;
+    background-image: url("./logo2.png");
+    background-position-y: 0%;
+    background-position-x: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+}
+.formlogin{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    margin-top: 18%;
+}
+
+.formlogin .input{
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    margin-top: 5%;
+    width: 70%;
+    padding-inline: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem #000 inset;
+}
+.formlogin .input::placeholder{
+    color:white;
+}
+.formlogin button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: transparent;
+
+    color: white;
+}
+.formlogin p{
+    margin-top: 3%;
+}
+@media (max-width: 768px) {
+    .forms{
+        height: 100%;
+        /* padding-top: auto; */
+        background-position-y: 10%;
+        background-size: 200px;
+    }
+    .formlogin{
+        width: 85%;
+        margin-top:60%;
+        /* padding: auto; */
+    }
+    .formlogin .input{
+        width: 100%;
+        margin-top: 8%;
+    }
+    .formlogin button{
+        margin-top: 8%;
+    }
+}

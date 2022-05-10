@@ -1,0 +1,16 @@
+/* .paybtn button{
+    padding: 5px;
+    color: lightgreen;
+    padding-inline:10px;
+    background-color: transparent;
+} */
+
+.placedcartitem{
+    margin-top: 15%;
+}
+
+@media (max-width: 600px) {
+    .placedcartitem hr{
+        display: none;
+    }
+}

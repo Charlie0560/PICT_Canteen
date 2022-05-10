@@ -1,0 +1,68 @@
+.additem form {
+  width: 100%;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.additem {
+  padding: 3%;
+  display: flex;
+  align-items: center;
+}
+.additem form select {
+  width: 80%;
+  height: 40px;
+  padding: 5px;
+  background-color: transparent;
+  box-shadow: 0 0 1rem #000 inset;
+  color: white;
+}
+.additem form select option{
+    background-color: white;
+    color: black;
+}
+.btn,
+.submitbtn{
+    box-shadow: 0 0 1rem #000 inset;
+    color: white;
+}
+.inputitemsection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 10px;
+  margin-top: 2%;
+}
+.inputitemsection div input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 1rem #000 inset;
+  background-color: transparent;
+  color: white;
+}
+.submitbtn {
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  position: fixed;
+  bottom: 6%;
+  right: 7%;
+}
+@media (max-width: 600px) {
+  .inputitemsection{
+    display: flex;
+    flex-direction: column;
+  }
+  .inputitemsection div input{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .additem form select {
+    width: 100%;
+  }
+}

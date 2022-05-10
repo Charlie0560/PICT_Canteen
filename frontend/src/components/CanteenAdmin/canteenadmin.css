@@ -1,0 +1,72 @@
+.canteenadmindashboard{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 2%;
+    margin: auto;
+    background-color: transparent;
+
+}
+.leftbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0.2;
+    border-right: 1px solid white;
+    height: 80vh;
+    padding-inline: 10px;
+}
+.leftbar ul{
+    width: 100%;
+}
+.leftbar ul li{
+    height: 50px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0 0 1rem #000 inset;
+    margin-top: 3px;
+    border-radius: 10px;
+    color: #D6D6D6;
+}
+.leftbar ul li:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.rightbar{
+    flex: 0.8;
+    padding: 10px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.checkbutton{
+    padding: 3px;
+    padding-inline: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0 0 1rem #000 inset;
+    border: 1px solid green;
+    color: white;
+
+}
+.checkbutton:hover{
+    background-color: gray;
+}
+@media (max-width: 768px) {
+    .canteenadmindashboard{
+        flex-direction: column;
+        margin-top: 2%;
+    }
+    .leftbar ul{
+        padding-left: 0%;
+    }
+    .leftbar{
+        flex: 1;
+        border: none;
+    }
+    .rightbar{
+        flex:1;
+    }
+}

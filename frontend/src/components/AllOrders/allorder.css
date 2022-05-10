@@ -1,0 +1,11 @@
+.allordertable table thead tr,
+.allordertable table tbody tr{
+    box-shadow: 0 0 1rem #000 inset;
+}
+
+
+@media (max-width: 600px) {
+    .mob{
+        display: none;
+    }
+}

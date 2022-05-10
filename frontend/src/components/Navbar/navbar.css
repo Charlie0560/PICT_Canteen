@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.headerNav {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #02293e81;
+  text-align: center;
+  color: white;
+  /* padding-top: 10px; */
+  padding: auto;
+  /* padding-bottom: 10px; */
+  /* font-family: 'Hurricane', cursive; */
+  /* font-family: 'Lobster', cursive; */
+  border-bottom: 1px solid #02293E;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(2,41,62,1) 43%, rgba(2,41,62,1) 100%);
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 3%, rgba(2,41,62,1) 26%, rgba(2,41,62,1) 100%);
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 3%, rgba(2,41,62,1) 60%, rgba(2,41,62,1) 100%);
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(2,41,62,1) 96%, rgba(2,41,62,1) 100%);
+}
+/* .headerNav h1 {
+  letter-spacing: 3px;
+}
+
+.headerNav h1:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 8%;
+  transform-origin: bottom;
+  transform: rotateX(180deg);
+  line-height: 0.865rem;
+  background: linear-gradient(0deg, #fff 0, transparent 90%);
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0.5;
+} */
+.headeritems {
+  display: flex;
+  padding-inline: 20px;
+  background-color: #02293e81;
+  justify-content: center;
+  column-gap: 100px;
+  height: 40px;
+
+  align-items: center;
+  top: 0;
+  position: sticky;
+  z-index: 1 !important;
+  
+  border-bottom: 1px solid #02293E;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(2,41,62,1) 96%, rgba(2,41,62,1) 100%);
+
+}
+.headeritems a i {
+  color: white;
+}
+.headerNav h1 {
+  position: absolute;
+  text-transform: capitalize;
+  color: white;
+}
+.headerNav h1::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+/* Change the position of transformed element */
+  transform-origin: bottom;
+/*  Rotates around x-axis */
+  transform: rotateX(180deg);
+  line-height: 0.85em;
+/* linear-gradient defined by up,down,left ,right ,diagonal */
+  background-image: linear-gradient(0deg, #ffffff 0, transparent 95%);
+  -webkit-background-clip: text;
+  color: transparent;         
+  opacity: 0.5;
+}
+@media (max-width: 768px) {
+  .headerNav h1:before {
+    top: 6%;
+  }
+  .headeritems {
+    justify-content: space-between;
+    column-gap: 0px;
+  }
+}

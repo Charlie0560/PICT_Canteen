@@ -1,0 +1,55 @@
+.contactusform form div{
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+.contactusform{
+    margin-top: 3%;
+
+}
+.contactusform .inputdiv{
+    width: 50%;
+    margin-top: 0%;
+}
+.inputdiv > input,
+.inputdiv > textarea{
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 15px;
+    margin-top: 2%;
+    background-color: #02293e67;
+    color: white;
+    /* box-shadow: 0 0 1rem #000 inset; */
+    border: 1px solid #02293E;
+    border: 1px solid #024b72;
+    
+}
+input::placeholder{
+    color: white;
+}
+textarea::placeholder{
+    color: white;
+}
+.inputdiv > textarea{
+    padding: 5px;
+    height: auto;
+}
+.inputdiv button{
+    width: 90px;
+    margin-top: 3%;
+    height: 40px;
+    padding-inline: 5px;
+    border-radius: 15px;
+    background-color: #02293E;
+    color: white;
+    border: 1px solid #02293E;
+}
+
+@media (max-width: 768px) {
+    .contactusform{
+        margin-top: 10%;
+    }
+    .contactusform .inputdiv{
+        width: 90%;
+    }
+}

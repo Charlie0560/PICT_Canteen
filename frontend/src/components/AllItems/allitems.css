@@ -1,0 +1,24 @@
+@media (max-width:600px) {
+    .createdat{
+        display: none;
+    }
+    
+}
+
+.addtocartbtn{
+    background-color: #02293E;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+
+}
+table{
+    background-color: #02293e81;
+    width: 100%;
+    border-radius: 10px;
+}
+thead,
+tbody{
+    border: 1px solid #02293E;
+}
