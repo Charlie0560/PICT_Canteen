@@ -5,7 +5,8 @@
 <br />
 <div align="center">
   <h1>PICT Canteen</h1>
-  <img src="frontpage.png" alt="frontpage" width="80" height="80">
+  <img src="canteenlogo.png" alt="frontpage" width="80" height="80">
+  <br/>
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="frontpage.png" alt="frontpage" width="400" height="250">
 <!--     <img src="frontpage2.png" alt="frontpage" width="80" height="80">
